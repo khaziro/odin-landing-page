@@ -17,7 +17,7 @@ body {
 
 .nav_logo {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 900;
   color: #f9faf8;
   text-transform: uppercase;
   text-decoration: none;
@@ -62,7 +62,7 @@ body {
 .hero_section_left_button {
   display: inline-flex;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: extra-bold;
   text-decoration: none;
   color: #f9faf8;
   background: #3882f6;
@@ -78,3 +78,47 @@ body {
   width: 100%;
 }
 /* HERO SECTION END */
+
+/* INFORMATION SECTION START */
+.information_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20%;
+}
+
+.information_header {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.information_content {
+  display: flex;
+  width: 100%;
+  padding-top: 80px;
+  justify-content: space-between;
+}
+
+.information_content_game {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.information_content_game img {
+  display: block;
+  margin: auto;
+  width: 11vw;
+  border: 4px solid #3882f6;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+.information_content_game img:hover {
+  transition: 0.3s ease;
+  transform: scale(1.05);
+}
+/* INFORMATION SECTION END */
