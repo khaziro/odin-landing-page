@@ -183,3 +183,12 @@ body {
   transform: scale(1.05);
 }
 /* CALL TO ACTION START */
+
+/* FOOTER */
+.footer {
+  color: #f9faf8;
+  background-color: #1f2937;
+  text-align: center;
+  padding: 20px 0;
+}
+/* FOOTER END */
